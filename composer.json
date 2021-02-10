@@ -2,5 +2,9 @@
   "name": "packaged/polyfill-php72",
   "license": "MIT",
   "require": {
+    "php": ">=7.2"
+  },
+  "replace": {
+    "symfony/polyfill-php72": "*"
   }
 }
